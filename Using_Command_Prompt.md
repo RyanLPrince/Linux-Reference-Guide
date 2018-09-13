@@ -7,7 +7,7 @@
 |mkdir `<directory's name>`|Make a directory with the given name.|mkdir: cannot create directory ‘myFile’: File exists|
 |cp `<source file/directory>` `<destination directory>`|Copy file or directory and place it in the specified destination.||
 |mv `<source file/directory>` `<destination directory>`|Move file or directory and place it in the specified destination.||
-|ls **OR** dir |Lists all files and directories in the working directory. -t flag lists directories by the time they were last modified.||
+|ls **OR** dir |Lists all files and directories in the working directory. -t flag lists directories by the time they were last modified. -a flag view hidden files as well as non-hidden||
 |rm <file name>|Deletes files. -r flag recursively delete a directory and all of its child directories. -f flag force delete||
 |touch [\<file name>] |Creates a new empty file inside the working directory.||
 |cat|Concatenate files and print on the standard output.||
