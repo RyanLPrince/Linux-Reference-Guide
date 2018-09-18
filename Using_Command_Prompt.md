@@ -19,6 +19,6 @@
 |<|Takes the standard input from the file on the right and inputs it into the program on the left.|
 |\||"pipe" takes the standard output of the command on the left, and pipes it as standard input to the command on the right. You can think of this as "command to command" redirection.|
 |env|Returns a list of the environment variables for the current user.|
-|nano [\<file name>]|Open nano text editor|
+|nano [\<file name>]|Open nano text editor.|
 
 * echo "Hello World"> HelloWorld.txt<br>Creates or overrides HelloWorld.txt, placing the text "Hello World" in the document.
